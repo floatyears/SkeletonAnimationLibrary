@@ -111,7 +111,7 @@ package dragonBones
 		/** @private */
 		dragonBones_internal function changeDisplay(displayIndex:int):void
 		{
-			if(displayIndex < 0)
+			if(displayIndex < 0) //test
 			{
 				if(_displayVisible)
 				{
